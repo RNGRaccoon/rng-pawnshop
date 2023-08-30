@@ -52,11 +52,11 @@ Config.PawnItems = {
     },
     [8] = {
         item = 'laptop',
-        price = math.random(5000,5500)
+        price = math.random(500,550)
     },
     [9] = {
         item = 'goldbar',
-        price = math.random(7000,9000)
+        price = math.random(4000,4500)
     }
 }
 
