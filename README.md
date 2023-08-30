@@ -1,5 +1,5 @@
-# qb-pawnshop
-Pawn Shop For QB-Core
+# rng-pawnshop
+Inspired by qb-pawnshop
 
 # License
 
