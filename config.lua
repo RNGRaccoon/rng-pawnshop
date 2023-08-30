@@ -24,35 +24,39 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.PawnItems = {
     [1] = {
         item = 'goldchain',
-        price = math.random(50,100)
+        price = math.random(500,750)
     },
     [2] = {
         item = 'diamond_ring',
-        price = math.random(50,100)
+        price = math.random(750,1000)
     },
     [3] = {
         item = 'rolex',
-        price = math.random(50,100)
+        price = math.random(1000,1500)
     },
     [4] = {
         item = '10kgoldchain',
-        price = math.random(50,100)
+        price = math.random(2000,3000)
     },
     [5] = {
         item = 'tablet',
-        price = math.random(50,100)
+        price = math.random(300,700)
     },
     [6] = {
         item = 'iphone',
-        price = math.random(50,100)
+        price = math.random(500,750)
     },
     [7] = {
         item = 'samsungphone',
-        price = math.random(50,100)
+        price = math.random(50,750)
     },
     [8] = {
         item = 'laptop',
-        price = math.random(50,100)
+        price = math.random(5000,5500)
+    },
+    [9] = {
+        item = 'goldbar',
+        price = math.random(7000,9000)
     }
 }
 
@@ -62,7 +66,7 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = 'goldbar',
-                amount = 2
+                amount = 4
             }
         },
         meltTime = 0.15
@@ -72,11 +76,11 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = 'diamond',
-                amount = 1
+                amount = 3
             },
             [2] = {
                 item = 'goldbar',
-                amount = 1
+                amount = 2
             }
         },
         meltTime = 0.15
@@ -86,11 +90,11 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = 'diamond',
-                amount = 1
+                amount = 5
             },
             [2] = {
                 item = 'goldbar',
-                amount = 1
+                amount = 2
             },
             [3] = {
                 item = 'electronickit',
@@ -104,11 +108,11 @@ Config.MeltingItems = { -- meltTime is amount of time in minutes per item
         rewards = {
             [1] = {
                 item = 'diamond',
-                amount = 5
+                amount = 3
             },
             [2] = {
                 item = 'goldbar',
-                amount = 1
+                amount = 3
             }
         },
         meltTime = 0.15
